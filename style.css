@@ -1,42 +1,42 @@
 * {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-	background: #222222;
-	color: white;
-	font-family: sans-serif;
+    background: #222222;
+    color: white;
+    font-family: sans-serif;
 }
 
 header {
-	background: rgb(255, 109, 18);
-	height: 100px;
 
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-wrap: wrap;
+    background: rgb(255, 109, 18);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.logo > img {
+.logo>img {
 
-	width: 150px;
+    width: 150px;
     display: flex;
     justify-content: space-around;
     margin-right: 300px;
 }
 
 .menu {
-	display: flex;
-	justify-content: flex-start;
-	padding-right: 200px;
-    
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 200px;
+
 }
 
 .menu-item {
-	padding: 0 15px;
+    padding: 0 15px;
 }
 
 .img {
@@ -46,22 +46,17 @@ header {
 
 }
 
-.container  {
+.container {
 
-    padding-top: 100px ;
-    padding-bottom: 100px;
-    width: 100%;
-    margin: auto;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+
 }
 
 
 .foto {
-    width: 300px;
-    display: flex;  
+    width: 200px;
+    display: flex;
+
 }
 
 .rosso {
@@ -83,7 +78,7 @@ header {
 
 .prezzo {
 
-    color:red;
+    color: red;
     display: inline-block;
 }
 
@@ -97,26 +92,43 @@ header {
 
 
 .container {
-	background: orange;
-	width: 100%;
-	
+
+    width: 100%;
+
 }
 
 .foto {
-	background-color: teal;
-	color: white;
-	width: 200px;
+    background-color: teal;
+    color: white;
+    width: 200px;
 
 }
 
-.container:hover {
-	background: green;
+.container:hover {}
+
+.container:hover .foto {}
+
+.conte {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.container:hover .btn {
-	background-image: url(./img/1b.webp);
+.tainer {
+
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 
-.foto:hover {
-	color: green;
+.figure {
+
+
 }
