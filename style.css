@@ -66,12 +66,57 @@ header {
 
 .rosso {
     position: relative;
+    bottom: 50px;
     background-color: red;
     margin-right: 300px;
 }
 
 .verde {
-    margin-top: 3px;
+
+    position: relative;
+    left: 40px;
+    bottom: 68px;
     background-color: green;
     margin-right: 300px;
+}
+
+
+.prezzo {
+
+    color:red;
+    display: inline-block;
+}
+
+.block {
+
+    padding-right: 4px;
+    display: inline-block;
+}
+
+
+
+
+.container {
+	background: orange;
+	width: 100%;
+	
+}
+
+.foto {
+	background-color: teal;
+	color: white;
+	width: 200px;
+
+}
+
+.container:hover {
+	background: green;
+}
+
+.container:hover .btn {
+	background-image: url(./img/1b.webp);
+}
+
+.foto:hover {
+	color: green;
 }
