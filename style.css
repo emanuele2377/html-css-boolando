@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #222222;
+	color: white;
+	font-family: sans-serif;
+}
+
+header {
+	background: rgb(255, 109, 18);
+	height: 100px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.logo > img {
+
+	width: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 300px;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-start;
+	padding-right: 200px;
+    
+}
+
+.menu-item {
+	padding: 0 15px;
+}
+
+.img {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container  {
+
+    padding-top: 100px ;
+    padding-bottom: 100px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.foto {
+    width: 300px;
+    display: flex;  
+}
+
+.rosso {
+    background-color: red;
+    margin-right: 300px;
+}
+
+.verde {
+    margin-top: 3px;
+    background-color: green;
+    margin-right: 300px;
+}
